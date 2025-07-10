@@ -18,7 +18,7 @@ Easily switch environments, toggle feature flags, and inspect configuration valu
 
 ## 📸 UI Preview
 
-| ![Screenshot](Screenshot/screenshot.png) |
+<img src="Screenshot/screenshot.png" width="300" />
 
 ---
 
@@ -56,8 +56,8 @@ let environments: [AppEnvironment] = [
 
 ```swift
 let featureFlags: [FeatureFlag] = [
-    .init(key: "featureFlag_darkMode", label: "Dark Mode", defaultValue: true),
-    .init(key: "featureFlag_newUI", label: "New UI", defaultValue: false)
+    .init(key: "featureFlag_darkMode", label: "Dark Mode"),
+    .init(key: "featureFlag_newUI", label: "New UI")
 ]
 ```
 
